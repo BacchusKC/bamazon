@@ -1,4 +1,4 @@
-# bamazon
+# Bamazon
 
 * This is a Node ordering/shopping system with customer and manager functions.
 
@@ -48,3 +48,4 @@
 
     * Delete a department.
 
+![Bamazon](/assets/bamazon.png)
