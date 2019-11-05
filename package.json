@@ -11,8 +11,9 @@
   "dependencies": {
     "columnify": "^1.5.4",
     "easy-table": "^1.1.1",
-    "inquirer": "^6.2.2",
-    "mysql": "^2.16.0",
+    "inquirer": "^6.5.2",
+    "lodash": "^4.17.15",
+    "mysql": "^2.17.1",
     "table-builder": "^2.1.1",
     "word-table": "^1.0.3"
   }
