@@ -50,11 +50,13 @@ const sales = () => {
     query +=
         "FROM departments AS d LEFT JOIN products AS p ON d.department_name = p.department_name GROUP BY d.department_name";
     connection.query(query, function (err, res) {
-        let data = JSON.parse(JSON.stringify(res));
-        let data2 = columnify(data, {
-            columnSplitter: ' | '
-        });
-        console.log(data2);
+        console.log(res);
+        
+        // let data = JSON.parse(JSON.stringify(res));
+        // let data2 = columnify(data, {
+        //     columnSplitter: ' | '
+        // });
+        // console.log(data2);
     });
     setTimeout(prompt, 500);
 };
